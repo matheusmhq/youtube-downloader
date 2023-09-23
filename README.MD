@@ -12,7 +12,6 @@ module.exports = youtubeUrls;
 
 Os arquivos são salvos nas seguintes pastas:
 
-- src
-  - download
-    - videos
-    - audios
+- download
+  - videos
+  - audios
