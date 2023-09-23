@@ -2,12 +2,12 @@ const ytdl = require("ytdl-core");
 const fs = require("fs");
 
 const youtubeUrls = require("./youtubeUrls");
-const isAudio = false;
 
 const pathDownload = "./download";
 const pathVideos = `${pathDownload}/videos`;
 const pathAudios = `${pathDownload}/audios`;
 
+const isAudio = false;
 const path = isAudio ? pathAudios : pathVideos;
 const extension = isAudio ? "mp3" : "mp4";
 const type = isAudio ? "audio" : "audioandvideo";
